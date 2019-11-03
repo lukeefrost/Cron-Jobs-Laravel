@@ -37,8 +37,8 @@ class TestCron extends Command
      */
     public function handle()
     {
-      \Log::info("Cron Job is working as expected");
+        \Log::info("Cron Job is working as expected");
 
-      $this->info('demo:cron command ran successfully');
+        $this->info('demo:cron command ran successfully');
     }
 }
